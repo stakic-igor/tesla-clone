@@ -1,4 +1,5 @@
 import React from "react";
+import Navigation from "./Navigation";
 
 const Header = () => {
     return (
@@ -10,7 +11,7 @@ const Header = () => {
                 fill="#171a20">
                 </path>
             </svg>
-            Header
+            <Navigation />
         </header>
     )
 }
