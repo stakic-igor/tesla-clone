@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "./Navigation";
+import UserNavigation from "./UserNavigation";
 
 const Header = () => {
     return (
@@ -12,6 +13,7 @@ const Header = () => {
                 </path>
             </svg>
             <Navigation />
+            <UserNavigation />
         </header>
     )
 }
