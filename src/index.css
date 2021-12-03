@@ -1,9 +1,20 @@
 :root {
     --dark-bg: rgb(23, 26, 32);
     --white: rgb(255, 255, 255);
+    --dark-font-color: rgb(23, 26, 32);
 }
 
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
+}
+
+a {
+    color: var(--dark-font-color);
+    text-decoration: underline;
+    transition: color, 280ms ease-in-out;
+}
+
+a:hover {
+    color: rgb(92, 93, 97);
 }
