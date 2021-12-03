@@ -1,4 +1,5 @@
 import React from 'react';
+import styled from 'styled-components';
 
 const Footer = () => {
 
@@ -6,10 +7,22 @@ const Footer = () => {
     const year = date.getFullYear();
 
     return (
-        <footer>
+        <AppFooter>
             &copy; copyright {year}, All rights reserved.
-        </footer>
+        </AppFooter>
     )
 }
+
+// Style for footer
+
+const AppFooter = styled.footer`
+    background-color: rgb(23, 26, 32);
+    color: rgb(255, 255, 255);
+    font-size: .750rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: .500rem 0;
+`;
+
 
 export default Footer;
