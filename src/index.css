@@ -1,3 +1,9 @@
+:root {
+    --dark-bg: rgb(23, 26, 32);
+    --white: rgb(255, 255, 255);
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }

@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import PageSections from "./components/PageSections";
 import SideBarNavigation from "./components/SideBarNavigation";
 import './reset.css';
+import './index.css';
 
 function App() {
   return (
